@@ -1,3 +1,9 @@
+"""
+Programmeerimise projekt
+"""
+
+
+
 import pygame
 import sys
 from random import shuffle
