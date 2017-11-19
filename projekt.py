@@ -2,8 +2,6 @@
 Programmeerimise projekt
 """
 
-
-
 import pygame
 import sys
 from random import shuffle
@@ -82,7 +80,7 @@ def recurse(cell, visited):
             recurse((nx, ny), visited)
     setColor(cell, white)
     
-
+print("Yeee! Yeee! Yeee!")
 pygame.init()
 screen = pygame.display.set_mode((screenWidth, screenHeight))
 background = pygame.Surface(screen.get_size())
